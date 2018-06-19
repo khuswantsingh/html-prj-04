@@ -1,0 +1,30 @@
+Width: 1791
+
+Header: 232
+
+Header h1 top margin: 66
+
+Header Nav Margin Left: 132
+
+Content: 1558
+
+Clothing Item: 236
+
+Content Side Margins: 238
+
+Clothing Row: 1173
+
+Clothing Item Gap: 47px
+
+Header %:  12%
+
+Header Nav Margin Left: 56.9%
+
+Content %: 88%
+
+Content Side Margins %: 15.28%
+
+Clothing Item %: 22%;
+
+Clothing Item Gap %:   
+
