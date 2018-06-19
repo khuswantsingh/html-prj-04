@@ -1,0 +1,23 @@
+.clothing {
+    
+    margin-left: 15.28%;
+    margin-right: 15.28%;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4%;
+
+        .clothing-col {
+            width: 22%;
+
+            img {
+                display: block;
+            }
+
+        }
+
+    }
+
+
+}

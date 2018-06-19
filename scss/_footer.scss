@@ -1,0 +1,17 @@
+.newsletter{
+    text-align: center;
+    text-transform: uppercase;
+    padding:10px;
+    border-bottom: 2px solid rgb(114, 112, 112);
+}
+.bottom-footer{
+    display:flex;
+
+    .bottom-footer-col-01, .bottom-footer-col-02 {
+        flex:1;
+    }
+
+    .bottom-footer-col-02 {
+        text-align: right;
+    }
+}

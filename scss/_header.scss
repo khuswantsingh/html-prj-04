@@ -1,3 +1,9 @@
-.wrapper{
-    background-image: url('..images/index-image.jpg');
+header {
+
+    h1 {
+        line-height: 1;
+        margin-top: $page-top-margin;
+        margin-bottom: 0;
+    }
+
 }
