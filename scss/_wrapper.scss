@@ -1,0 +1,25 @@
+.wrapper{
+    
+    background-size: cover;
+    flex: 1;
+    
+    // background-image: url('../images/index-image.jpg');
+    body.pg-home & {
+        background-image: url('../images/bg-home-page.jpg');
+    }
+
+    body.pg-women & {
+        background-image: url('../images/bg-women-page.jpg');
+    }
+
+    display: flex;
+
+    header {
+        width: 12%;
+    }
+
+    main {
+        width: 88%;
+    }
+
+}
