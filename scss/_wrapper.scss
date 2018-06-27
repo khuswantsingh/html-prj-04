@@ -2,14 +2,21 @@
     
     background-size: cover;
     flex: 1;
+    position: relative;
     
     // background-image: url('../images/index-image.jpg');
-    body.pg-home & {
+    // body.pg-home & {
+    //     background-image: url('../images/bg-home-page.jpg');
+    // }
+    body.pg-men &{
         background-image: url('../images/bg-home-page.jpg');
     }
 
     body.pg-women & {
         background-image: url('../images/bg-women-page.jpg');
+    }
+    body.pg-kids  & {
+        background-image: url('../images/bg-kids-page.jpg')
     }
 
     display: flex;
