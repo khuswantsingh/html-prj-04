@@ -10,11 +10,20 @@
 
         .clothing-col {
             width: 22%;
+            position:relative;
 
             img {
                 display: block;
             }
-
+            span{
+                color:rgb(175, 18, 18);
+                letter-spacing: -1px;
+                padding:10px;
+                position: absolute;
+                left: 30%;
+                bottom:-2%;
+               
+            }
         }
 
     }

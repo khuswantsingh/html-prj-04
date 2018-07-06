@@ -8,5 +8,68 @@ body {
     flex-direction: column;
     margin: 0;
 }
+body{
+    height: 100%;
+    background: linear-gradient(13deg,#DDF8FE,#C4D4E8);
+    background-repeat: no-repeat;
+  }
+  @mixin center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .page{
+    @include center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0.2px #A0BEE2;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    background: white;
+  }
+  h1{
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 4px;
+    }
+  label{
+    position: relative;
+    top: 10px;
+    color: #ACBBCC;
+    padding: 5px;
+    display: block;
+    input{
+      position: relative;
+      border: none;
+      background: none;
+      outline: none;
+      height: 40px;
+      display: block;
+      width: 70%;
+      font-size: 28px;
+      border-bottom: 2px solid #0F3562;
+    }
+  }
+  button{
+    position: relative;
+    left: 38%;
+    padding: 10px;
+    background: linear-gradient(90deg,#4B96EE,#9EC0E8);
+    border: none;
+    border-radius:10px;
+    width: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    &:hover{
+      background: linear-gradient(90deg,#6F63B6,#271B70);
+      color: white;
+        }
+  }
 
+  
 
