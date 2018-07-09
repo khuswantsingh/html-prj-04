@@ -1,0 +1,21 @@
+.log-in-and-hamburger {
+
+    display: none;
+
+    @media (max-width: 600px){
+        display: block;
+        margin-right: 10px;
+        margin-top: 10px;
+
+        button {
+            background-color: transparent;
+            display: block;
+            border: none;
+            font-size: 2em;
+            color: white;
+        }
+
+    }
+
+
+}

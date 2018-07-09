@@ -16,6 +16,7 @@
                 display: block;
             }
             span{
+                font-size: 1.3rem;
                 color:rgb(175, 18, 18);
                 letter-spacing: -1px;
                 padding:10px;
@@ -24,9 +25,35 @@
                 bottom:-2%;
                
             }
+      
         }
 
     }
 
+    @media (max-width: 1050px){
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    
+        .row {
+            flex-wrap: wrap;
+            margin-bottom: 0;
+            .clothing-col {
+                width: 48%;
+                margin-bottom: 4%;
+            }
+        }
+    
+    }
+
+    @media (max-width: 370px){
+    
+        .row {
+
+            .clothing-col {
+                width: 100%;
+            }
+        }
+    
+    }
 
 }

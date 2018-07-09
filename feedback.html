@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="styles.css" rel="stylesheet">
+
+    <title>FeedBack</title>
+  </head>
+  <body>
+    
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center" id="title"> FeedBack </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container survey">
+      <form class="well form-horizontal" id="survey-form">
+       <p class="text-center" id="description">Let us know how we can improve?</p>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="name" id="name-label">* Name</label>  
+            <div class="col-md-4">
+              <div class="Form control">
+                <input  name="name" placeholder="Enter your name" class="form-control"  type="text" id="name" title="Please fill out this field" required="required">
+              </div>
+             </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="email" id="email-label">* E-Mail</label>  
+            <div class="col-md-4">
+              <div class="form control">
+                <input name="email" placeholder="Enter your email address" class="form-control"  type="email" id="email" title="Please fill out this field" required="required">
+              </div>
+          </div>
+          </div>
+        
+          <div class="form-group">
+            <label class="col-md-4 control-label" id="number-label">* Age</label>  
+            <div class="col-md-4">
+              <div class="form control">
+                <input name="age" placeholder="Enter your age" class="form-control" type="number" id="number" min="1" max="125" title="Please fill out this field" required="required">
+              </div>
+            </div>
+          </div>
+     
+          <div class="form-group"> 
+            <label class="col-md-4 control-label">Country Name</label>
+            <div class="col-md-2">
+              <div class="form control">
+                <!-- <select class="form-control" id="dropdown" onchange="other(this)"> -->
+               <select class="form-control" id="dropdown">
+                  <option value="Select">Canada</option>
+                  <option value="Student">USA</option>
+                  <option value="FullTimeJob">Other</option>
+                  </select>
+              </div>
+            </div>
+          </div>
+
+         <div class="form-group">
+            <label class="col-md-4 control-label">* How likely is that you would recommend ?</label>
+            <div class="col-md-4">
+                <!-- <form role="form"> -->
+              <div class="radio">
+                <label><input type="radio" name="radio-buttons" value="1">Good</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="radio-buttons" value="2">Best</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="radio-buttons" value="3">Average</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" > What do you like most in:</label>
+            <div class="col-md-2">
+              <select class="form-control">
+                <option value="Select">Clothes</option>
+                <option value="Challenge">Jewellery</option>
+                <option value="Project">Shoes</option>
+                <option value="Community">Other</option>
+                
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" >Things that should be improved in the future(check all that apply):</label>
+              <div class="col-md-4">
+                <div class="checkbox">
+                  <label>
+                      <input type="checkbox" value="1"> Services
+                  </label>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                       <input type="checkbox" value="2"> Online Shoping
+                  </label>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="3"> Any other
+                  </label>
+                </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="comment">Any comment or suggestions?</label>
+            <div class="col-md-4">
+              <textarea class="form-control" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-6">
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+          </div>
+     </form>
+   </div>
+   <!-- <script src="main.js"></script> -->
+  </body>
+</html>

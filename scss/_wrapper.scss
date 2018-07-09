@@ -23,10 +23,33 @@
 
     header {
         width: 12%;
+        min-width: 215px;
     }
 
     main {
         width: 88%;
+    }
+
+    @media (max-width: 1050px){
+        background-position: center;
+    }
+
+    @media (max-width: 600px){
+        display: block;
+
+        header {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        main {
+            width: 100%;
+        }
+
     }
 
 }

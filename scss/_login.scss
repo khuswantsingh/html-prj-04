@@ -3,4 +3,26 @@
     margin-right: 15.28%;
     margin-bottom: 176px;
     text-align: right;
+    
+    a {
+        color: white;
+    }
+
+    // &.mobile {
+    //     display: none;
+    // }
+    @media (max-width: 600px){
+        // Mobile View for the login button
+        // -> Hide desktop login button...
+        // and show mobile login button...
+        &.desktop {
+            display: none;
+        }
+        &.mobile {
+           
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 5px;
+        }
+    } 
 }
