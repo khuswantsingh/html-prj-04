@@ -25,14 +25,14 @@
     font-family: 'Slabo 27px', serif;
     margin-bottom: 4px;
     }
-  label{
+  .custom-label{
     position: relative;
     top: 10px;
     color: #ACBBCC;
     padding: 5px;
     display: block;
   }
-    input{
+    .custom-input{
       position: relative;
       border: none;
       background: none;
@@ -42,6 +42,11 @@
       width: 70%;
       font-size: 28px;
       border-bottom: 2px solid #0F3562;
+    }
+
+    .label-footer-email {
+        display: block;
+        margin-bottom: 10px;
     }
   
     button{
