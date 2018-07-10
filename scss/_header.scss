@@ -3,14 +3,21 @@ header {
     position: relative;
     z-index: 1;
 
-    h1 {
+    
+        h1{
+            text-align: center;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Slabo 27px', serif;
+            margin-bottom: 4px;
+            
         line-height: 1;
         margin-top: $page-top-margin;
         margin-bottom: 0;
         a {
             color: red;
             text-decoration: none;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
         }
         
     }
