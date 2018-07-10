@@ -1,11 +1,14 @@
 .login-link {
     margin-top: $page-top-margin;
     margin-right: 15.28%;
-    margin-bottom: 176px;
+    margin-bottom: 130px;
     text-align: right;
+    z-index: 9999;
     
     a {
-        color: white;
+        color: red;
+        text-decoration: none;
+        font-family: 'Slabo 27px', serif;
     }
 
     // &.mobile {

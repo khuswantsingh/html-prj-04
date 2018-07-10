@@ -3,13 +3,21 @@ header {
     position: relative;
     z-index: 1;
 
-    h1 {
+    
+        h1{
+            text-align: center;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Slabo 27px', serif;
+            margin-bottom: 4px;
+            
         line-height: 1;
         margin-top: $page-top-margin;
         margin-bottom: 0;
         a {
-            color: rgb(224, 17, 17);
+            color: red;
             text-decoration: none;
+        
         }
         
     }
